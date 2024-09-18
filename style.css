@@ -1,0 +1,1335 @@
+*{
+    padding: 0;
+    margin: 0;
+    font-family: "Poppins", Arial, sans-serif;
+}
+html {
+    scroll-behavior: smooth;
+  }
+body{
+    background: #000;
+}
+.container{
+    max-width: 1200px;
+    margin: 0 auto;
+}
+.header{
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.5); 
+}
+.name-heading a{
+   color: #fff;
+   font-weight: 900;
+   font-size: 25px;
+   text-decoration: none;
+}
+.main-navbar{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    padding: 20px;
+    position: fixed;
+    left: 0;
+    right: 0;
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.5); 
+    background: #000;
+    z-index: 999;
+}
+.navbar a{
+    color: #fff;
+    font-size: 20px;
+    padding: 20px 10px;
+    text-decoration: none;
+    transition: ease-in-out 0.4s;
+    font-weight: 400;
+    padding-left: 20px;
+}
+.navbar a:hover:not(.active) {
+    background-color: #ffbd39;
+}
+.active {
+    background-color: #fff;
+}
+.main-body{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    padding-top: 60px;
+}
+.image-back{
+    overflow: visible;
+    background: linear-gradient(50deg, rgb(224, 221, 39) 0%, rgba(219, 202, 139, 0.123) 100%); 
+    clip-path: polygon(0% 0%, 100% 0%, 100% 100%, 0% 100%);
+    border-radius: 20px;
+    height: 500px;
+    width: 400px;
+   
+}
+.body-image img{
+    margin-left: -63px; 
+   width: 521px;
+   margin-top: 25px;
+}
+.body-text h6{
+    color: #ffbd39;
+    font-weight: 300;
+    font-size: 16px;
+    padding-left: 19px;
+}
+.body-text-one{
+    width: 500px;
+    line-height: 1.3;
+    padding-top: 12px;
+}
+.body-text-one h6{
+    color: #fff;
+    font-weight: 800;
+    font-size: 60px;
+}
+.body-text-one span{
+    color: #ffbd39;
+    font-weight: 800;
+    font-size: 60px; 
+}
+.body-text-one p{
+    color: #fff;
+    font-size: 30px;
+    font-weight: 200;
+    padding-left: 14px;
+}
+.mini-main{
+    display: flex;
+    gap: 8px;
+    padding-top: 30px;
+    padding-left: 15px;
+}
+.button-body a{
+    color: #000;
+    padding: 18px 30px;
+    background: #ffbd39;
+    border-radius: 20px;
+    text-decoration: none;
+    font-size: 15px;
+    font-weight: 200;
+}
+.button-body-one a{
+    color: #fff;
+    padding: 18px 30px;
+    border-radius: 20px;
+    text-decoration: none;
+    border: 1px solid #555;
+    font-size: 15px;
+    font-weight: 200;
+}
+.main-facebook{
+    display: flex;
+    flex-direction: column;
+    gap: 25px;
+    margin-top: 360px;
+}
+.facebook-border{
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.5);
+    background: rgba(255, 255, 255, 0.1);
+    width: 40px;
+    height: 40px;
+    border-radius: 30px;
+}
+.facebook a i{
+    color: blue;
+    font-size: 20px;
+    margin-left: 14px;
+    margin-top: 10px;  
+}
+.github-border{
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.5);
+    background: rgba(255, 255, 255, 0.1);
+    width: 40px;
+    height: 40px;
+    border-radius: 30px;
+}
+.github a i{
+    color: #000;
+    font-size: 20px;
+    margin-left: 10px;
+    margin-top: 10px;  
+}
+.linkedin-border{
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.5);
+    background: rgba(255, 255, 255, 0.1);
+    width: 40px;
+    height: 40px;
+    border-radius: 30px;
+}
+.linkedin a i{
+    color: blue;
+    font-size: 20px;
+    margin-left: 11px;
+    margin-top: 10px;  
+}
+       /* About */
+
+.main-down{
+    display: flex;
+    justify-content: space-around;
+    align-items: flex-start;
+    padding-top: 50px;
+    padding-right: 50px;
+}
+.heading-down h1{
+    color: rgba(255, 255, 255, 0.1);
+    font-weight: 900;
+    font-size: 7vw;
+}
+.h2{
+    margin-top: -120px;
+    color: #fff;
+    font-size: 50px;
+    font-weight: 700;
+    padding-left: 19px;
+}
+.paragh p{
+    padding-top: 40px;
+    color: #999999;
+    padding-bottom: 40px;
+    padding-left: 95px;
+    font-size: 20px;
+}
+.main-personal{
+    display: flex;
+    align-items: center;
+    padding-top:  20px;
+    gap: 100px;  
+}
+.main-personal2{
+    display: flex;
+    gap: 50px;
+    padding-top: 20px;
+}
+.main-personal3{
+    display: flex;
+    gap: 82px;
+    padding-top: 20px;
+}
+.main-personal4{
+    display: flex;
+    gap: 82px;
+    padding-top: 20px;
+}
+.main-personal5{
+    display: flex;
+    gap: 106px;
+    padding-top: 20px;
+}
+.main-personal6{
+    display: flex;
+    gap: 99px;
+    padding-top: 20px;
+}
+.data1 p{
+    color: #fff;
+    font-size: 18px;
+}
+.text1 p{
+    color: #999999;
+    font-size: 18px;
+}
+.project-num{
+    display: flex;
+    align-items: center;
+    font-size: 23px;
+    padding-top: 40px;
+    gap: 10px;
+}
+.project-num span{
+    color: #ffbd39;
+}
+.project-num h5{
+    color: #fff;
+    font-size: 23px;
+}
+.button-cv{
+    padding-top: 40px;
+    font-size: 13px;
+}
+.button-cv a{
+   text-decoration: none;
+   padding: 20px 30px;
+   background: #ffbd39;
+    border: 1px solid #ffbd39;
+    color: #000000;
+    border-radius: 20px;
+}
+.image-data img{
+    width: 406px;
+}
+
+     /* Resume */
+
+.main-resume{
+    display: flex;
+    justify-content: space-around;
+    padding-top: 50px;
+}
+.heading-resume h1{
+    color: rgba(255, 255, 255, 0.1);
+    font-weight: 900;
+    font-size: 7vw;
+    text-align: center;
+    padding-top: 80px;
+}
+.hh2{
+    color: #fff;
+    text-align: center;
+    font-size: 50px;
+    font-weight: 700;
+    margin-top: -120px;
+}
+.paragh-resume p{
+    color: #999999;
+    text-align: center;
+    padding-top: 40px;
+ 
+}
+.card-resume{
+    box-shadow:  0 0 20px rgba(0, 0, 0, 0.5);
+    background: rgba(255, 255, 255, 0.1);
+    border-radius: 10px;
+    width: 480px;
+   padding: 30px;
+}
+.card-heading h3{
+    color: #ffbd39;
+    font-size: 25px;
+    font-weight: 900;
+}
+.card-text h2{
+    color: #fff;
+    padding-top: 20px;
+    font-size: 30px;
+    font-weight: 400;
+}
+.card-name p{
+    color: #999999;
+    padding-top: 20px;
+    font-weight: 200;
+    width: 300px;
+    line-height: 1.3;
+}
+.card-paragh p{
+    color: #999999;
+    padding-top: 20px;
+    line-height: 1.5;
+    font-size: 18px;
+}
+        /* Card-Two */
+
+.main-resume-two{
+    display: flex;
+    justify-content: space-around;
+    padding-top: 50px;
+}
+.card-resume-two{
+    box-shadow:  0 0 20px rgba(0, 0, 0, 0.5);
+    background: rgba(255, 255, 255, 0.1);
+    border-radius: 10px;
+    width: 480px;
+   padding: 30px;
+}
+.card-heading-two h3{
+    color: #ffbd39;
+    font-size: 25px;
+    font-weight: 900;
+}
+.card-text-two h2{
+    color: #fff;
+    padding-top: 20px;
+    font-size: 30px;
+    font-weight: 400;
+}
+.card-name-two p{
+    color: #999999;
+    padding-top: 20px;
+    font-weight: 200;
+    width: 300px;
+    line-height: 1.3;
+}
+.card-paragh-two p{
+    color: #999999;
+    padding-top: 25px;
+    line-height: 1.5;
+    font-size: 18px;
+}
+
+        /* card three */
+
+.main-resume-three{
+    display: flex;
+    justify-content: space-around;
+    padding-top: 50px;
+}
+.card-resume-three{
+    box-shadow:  0 0 20px rgba(0, 0, 0, 0.5);
+    background: rgba(255, 255, 255, 0.1);
+    border-radius: 10px;
+    width: 480px;
+   padding: 30px;
+}
+.card-heading-three h3{
+    color: #ffbd39;
+    font-size: 25px;
+    font-weight: 900;
+}
+.card-text-three h2{
+    color: #fff;
+    padding-top: 20px;
+    font-size: 30px;
+    font-weight: 400;
+}
+.card-name-three p{
+    color: #999999;
+    padding-top: 20px;
+    font-weight: 200;
+    width: 300px;
+    line-height: 1.3;
+}
+.card-paragh-three p{
+    color: #999999;
+    padding-top: 25px;
+    line-height: 1.5;
+    font-size: 18px;
+}
+.button-resume{
+   padding-top: 100px;
+   text-align: center;
+   font-size: 13px;
+}
+.button-resume a{
+   text-decoration: none;
+   border-radius: 20px;
+   padding: 20px 40px;
+   background: #ffbd39;
+   color: #000;
+}
+
+       /* services */
+
+.heading-services h1{
+    color: rgba(255, 255, 255, 0.1);
+    font-weight: 900;
+    font-size: 7vw;
+    text-align: center;
+    padding-top: 220px;
+}
+.ss2{
+    color: #fff;
+    text-align: center;
+    font-size: 50px;
+    font-weight: 700;
+    margin-top: -120px;
+}
+.paragh-services p{
+    color: #999999;
+    text-align: center;
+    padding-top: 40px;
+}
+.main-services{
+    display: flex;
+    align-items: baseline;
+    justify-content: space-around;
+    transition: 3s ease-in;
+}
+.card-sevices{
+    box-shadow:  0 0 20px rgba(0, 0, 0, 0.5);
+    background: rgba(255, 255, 255, 0.1);
+    border-radius: 2px;
+    width: 300px;
+    padding: 40px;
+    margin-top: 50px;
+}
+.card-heading-servicse i{
+     color: #ffbd39;
+     font-size: 50px;
+     padding-left: 125px;
+     padding-top: 20px;
+}
+.card-heading-servicse h4{
+    color: #fff;
+    text-align: center;
+    padding-top: 20px;
+    font-size: 18px;
+    font-weight: 200;
+}
+.main-services :hover{
+    background: #ffbd39;
+    color: #fff;
+}
+.card-heading-servicse-four .icon i :hover {
+    color: #fff;
+}
+.card-heading-servicse h4 :hover{
+    color: black;
+}
+.card-services-two{
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.5);
+    background: rgba(255, 255, 255, 0.1);
+    border-radius: 2px;
+    padding: 40px;
+    width: 300px;
+}
+.card-heading-services-two i{
+    color: #ffbd39;
+    font-size: 50px;
+    padding-left: 120px;
+    padding-top: 20px;
+}
+.card-heading-services-two h4{
+    color: #fff;
+    padding-top: 25px;
+    font-size: 18px;
+    font-weight: 200;
+    text-align: center;
+}
+.card-services-three{
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.5);
+    background: rgba(255, 255, 255, 0.1);
+    border-radius: 2px;
+    padding: 40px;
+    width: 300px;
+}
+.card-heading-services-three i{
+    color: #ffbd39;
+    font-size: 50px;
+    padding-left: 120px;
+    padding-top: 20px;
+}
+.card-heading-services-three h4{
+    color: #fff;
+    padding-top: 25px;
+    font-size: 18px;
+    font-weight: 200;
+    text-align: center;
+}
+      /* card-two */
+
+.main-services-two{
+    display: flex;
+    align-items: baseline;
+    justify-content: space-around;
+    margin-top: 20px;
+    transition: 3s ease-in;
+}
+.card-sevices-four{
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.5);
+    background: rgba(255, 255, 255, 0.1);
+    border-radius: 2px;
+    padding: 40px;
+    width: 300px;
+}
+.card-heading-servicse-four i{
+    color: #ffbd39;
+    font-size: 50px;
+    padding-left: 120px;
+    padding-top: 20px;
+}
+.card-heading-servicse-four h4{
+    color: #fff;
+    padding-top: 25px;
+    font-size: 18px;
+    font-weight: 200;
+   text-align: center;
+}
+.main-services-two :hover{
+    background: #ffbd39;
+    color: white;
+}
+.card-heading-servicse-four .icon i :hover {
+    color: #fff;
+}
+
+.card-heading-servicse-four h4 :hover{
+    color: black;
+}
+.card-services-five{
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.5);
+    background: rgba(255, 255, 255, 0.1);
+    border-radius: 2px;
+    padding: 40px;
+    width: 300px;
+}
+.card-heading-services-five i{
+    color: #ffbd39;
+    font-size: 50px;
+    padding-left: 120px;
+    padding-top: 20px;
+}
+.card-heading-services-five h4{
+    color: #fff;
+    padding-top: 25px;
+    font-size: 18px;
+    font-weight: 200;
+    text-align: center;
+}
+.card-services-six{
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.5);
+    background: rgba(255, 255, 255, 0.1);
+    border-radius: 2px;
+    padding: 40px;
+    width: 300px;
+}
+.card-heading-services-six i{
+    color: #ffbd39;
+    font-size: 50px;
+    padding-left: 120px;
+    padding-top: 20px;
+}
+.card-heading-services-six h4{
+    color: #fff;
+    padding-top: 25px;
+    font-size: 18px;
+    font-weight: 200;
+    text-align: center;
+}
+        /* My-skills */
+
+.heading-skills h1{
+    color: rgba(255, 255, 255, 0.1);
+    font-weight: 900;
+    font-size: 7vw;
+    text-align: center;
+    padding-top: 220px;
+}
+.kk2{
+    color: #fff;
+    text-align: center;
+    font-size: 50px;
+    font-weight: 700;
+    margin-top: -130px;
+}
+.paragh-skills p{
+    color: #999999;
+    text-align: center;
+    padding-top: 50px;
+    font-size: 20px;
+}
+.main-skills{
+    display: flex;
+    justify-content: space-around;
+    align-items: flex-end;
+    padding-top: 50px;
+}
+.level p{ 
+    font-size: 20px; 
+    color: #fff;
+    padding: 20px;
+} 
+.level-one p{
+    font-size: 20px; 
+    color: #fff;
+    padding: 20px;
+}
+.Percentage{ 
+    background-color: rgba(255, 255, 255, 0.1);
+    width: 500px; 
+    border-radius: 15px; 
+} 
+.skill{ 
+    background-color: #ffbd39;
+    color: #000; 
+    text-align: right; 
+    font-size: 20px; 
+    border-radius: 15px; 
+} 
+.html{ 
+    width: 90%; 
+} 
+.css3{ 
+    width: 90%; 
+} 
+.javascript{
+    width: 50%;
+}
+.bootstraps5{
+    width: 85%;
+}
+.rectjs{
+    width: 20%;
+}
+.nextjs{
+    width: 20%;
+}
+
+    /* our-poject */
+
+.heading-project h1{
+    color: rgba(255, 255, 255, 0.1);
+    font-size: 7vw;
+    padding-top: 200px;
+    text-align: center;
+    font-weight: 900;
+}
+.pp2{
+    color: #fff;
+    font-size: 50px;
+    text-align: center;
+    margin-top: -120px;
+}
+.paragh-project p{
+    color: #999999;
+    text-align: center;
+    font-size: 20px;
+    padding-top: 50px;
+
+}
+.main-project{
+    display: flex;
+    justify-content: space-between;
+    gap: 11px;
+    margin-top: 50px;
+}
+.image-project {
+    position: relative;
+    width: 45%;
+}  
+.image {
+    display: block;
+    width: 100%;
+    height: 80%;
+    border-radius: 10px;
+}  
+.overlay {
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    height:  80%;
+    width: 100%;
+    opacity: 0;
+    transition: .5s ease;
+    background-color: #ffbd39;
+    border-radius: 10px;
+}  
+.image-project:hover .overlay {
+    opacity: 1;
+}  
+.text {
+    color: white;
+    font-size: 25px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    -webkit-transform: translate(-50%, -50%);
+    -ms-transform: translate(-50%, -50%);
+    transform: translate(-50%, -50%);
+    text-align: center;
+}
+.main-card-project{
+    display: flex;
+    gap: 30px;
+    padding: 100px;
+}
+.image-cover{
+    background: linear-gradient(rgba(0,0,0,0.5), rgba(0,0,0,0.5)),  url(../image/cover.jpg);
+    height: 60vh;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    margin-top: 150px;
+    width: 100%;
+}
+.card-project-size{
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.5);
+    background: rgba(255, 255, 255, 0.1);
+    width: 200px;
+    padding: 40px;    
+    border-radius: 5px;
+
+}
+.heading-card-project h2{
+    color: #ffbd39;
+    text-align: center;
+    font-size: 35px;
+    font-weight: bold;
+}
+.text-card-project p{
+    color: #fff;
+    text-align: center;
+    font-size: 20px;
+    padding-top: 10px;
+}
+        /* contact */
+
+.heading-contact h1{
+    color: rgba(255, 255, 255, 0.1);
+    font-size: 7vw;
+    padding-top: 200px;
+    text-align: center;
+    font-weight: 900;  
+}
+.cc2{
+    color: #fff;
+    text-align: center;
+    font-size: 50px;
+    font-weight: 700;
+    padding-top: 50px;
+    margin-top: -170px;
+}
+.paragh-contact p{
+    color: #999999;
+    text-align: center;
+    font-size: 20px;
+    padding-top: 50px;
+}
+.main-contact{
+    display: flex;
+    justify-content: space-around;
+    padding-top: 100px;
+}
+.boll-contact{
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.5);
+    background: rgba(255, 255, 255, 0.1);
+    border-radius: 60px;
+    height: 50px;
+    padding: 20px;
+}
+.boll-contact h4{
+    color: #fff;
+    padding-top: 50px;
+    font-size: 18px; 
+}
+.boll-contact i{
+    color: #ffbd39;
+    font-size: 30px;
+    padding: 10px;
+    padding-left: 13px; 
+}
+.boll-contact P{
+    color: #fff;
+    font-size: 18px;
+}
+.main-message{
+    display: flex;
+    align-items: center;
+    margin-top: 100px;
+}
+.contact-message{
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.5);
+    background: rgba(255, 255, 255, 0.1);
+    width: 500px;
+    margin-left: 100px;
+    
+}
+.contact-massage-white{
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.5);
+    background: white;
+    width:  500px;
+    height: 535px;
+
+}
+input[type=text], select {
+    width: 80%;
+    padding: 12px 20px;
+    margin: 25px;
+    margin-left: 20px;
+    display: inline-block;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+    
+}  
+input[type=message] {
+    width: 80%;
+    padding: 70px 20px;
+    margin: 25px;
+    margin-left: 20px;
+    display: inline-block;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+}  
+input[type=submit]:hover {
+    background-color: #45a049;
+}
+.image-message img{
+    width: 400px;
+}
+form a{
+   text-decoration: none;
+   margin-left: 20px;
+   padding: 18px 20px;
+   background: #ffbd39;
+   color: #000;
+   border-radius: 10px;
+}
+.footer{
+    background: rgba(255, 255, 255, 0.1);
+    width: 100%;
+}
+.footer p{
+    color: #999999;
+    text-align: center;
+    margin-top: 100px;
+    font-size: 18px;
+    padding: 20px;
+}
+
+
+@media only screen and (max-width: 768px) {
+  .main-body{
+    display: flex;
+    flex-direction: column;
+  }
+  .image-back{
+    margin-top: 40px;
+  }
+  .body-text-one{
+    padding-top: 66px;
+    width: 385px;
+  }
+  .h2{
+    margin-left: 34px;
+  }
+  .heading-down h1{
+    margin-left: 117px;
+  }
+  .main-facebook{
+    display: flex;
+    flex-direction: row;
+    gap: 25px;
+    margin-top: 50px;
+    margin-bottom: 33px;
+  }
+  .main-down{
+    display: flex;
+    flex-direction: column;
+    align-content: space-around;
+    margin-left: 18px;
+  }
+  .paragh p{
+    padding-left: 106px;
+  }
+  .iamge-data img{
+    width: 0px;
+  }
+  .main-navbar{
+    display: flex;
+    justify-content: space-evenly;
+    gap: 43px;
+  }
+  .name-heading a{
+    margin-left: -25px;
+  }
+  .main-resume{
+    display: flex;
+    flex-direction: column;
+    gap: 24px;
+  }
+  .card-resume{
+    width: 358px;
+  }
+  .card-resume-two{
+    width: 358px;
+  }
+  .card-resume-three{
+    width: 358px;
+  }
+  .paragh-resume p{
+    margin-left: 86px;
+    width: 250px;
+  }
+  .card-paragh{
+    width: 400px;
+  }
+  .main-resume-two{
+    display: flex;
+    flex-direction: column;
+    gap: 24px;
+  }
+  .main-resume-three{
+    display: flex;
+    flex-direction: column;
+    gap: 24px;
+  }
+  .heading-resume h1{
+    padding-top: 102px;
+  }
+  .hh2{
+    padding-top: 44px;
+  }
+  .main-services{
+    display: flex;
+    gap: 17px;
+    flex-direction: column;
+  }
+  .main-services-two{
+    display: flex;
+    gap: 17px;
+    flex-direction: column;
+  }
+  .card-sevices{
+    width: 322px;
+    margin-left: 9px;
+  }
+  .card-heading-servicse i {
+    margin-left: 10px;
+  }
+  .card-services-two{
+    width: 322px;
+    margin-left: 9px;
+  }
+  .card-heading-services-two i{
+    margin-left: 10px;
+  }
+  .card-services-three{
+    width: 322px;
+    margin-left: 9px;
+  }
+  .card-heading-services-three i{
+    margin-left: 10px;
+  }
+  .card-sevices-four{
+    width: 322px;
+    margin-left: 9px;
+  }
+  .card-heading-servicse-four i{
+    margin-left: 18px;
+  }
+  .card-services-five{
+    width: 322px;
+    margin-left: 9px;
+  }
+  .card-heading-services-five i{
+    margin-left: 10px;
+  }
+  .card-services-six{
+    width: 322px;
+    margin-left: 9px;
+  }
+  .card-heading-services-six i{
+    margin-left: 10px;
+  }
+  .card-paragh-two{
+    width: 362px;
+  }
+  .card-paragh-three{
+    width: 363px;
+  }
+  .main-skills{
+    display: flex;
+    flex-direction: column;
+    margin-right: -37px;
+  }
+  .kk2{
+    padding-top: 53px;
+  }
+  .paragh-skills p {
+    padding-top: 26px;
+  }
+  .Percentage{
+    width: 376px;
+  }
+  .level{
+    padding-right: 65px;
+  }
+  .level-one{
+    padding-right: 65px;
+  }
+  .pp2{
+    padding-top: 45px;
+  }
+  .main-contact{
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+  }
+  .cc2{
+    padding-top: 89px;
+  }
+  .paragh-contact p{
+    padding-top: 13px;
+  }
+  form{
+    width: 380px;
+  }
+  .main-message{
+    display: flex;
+    flex-direction: column;
+  }
+ 
+  .contact-massage-white{
+    width: 432px;
+  }
+  .contact-message{
+    width: 434px;
+    margin-left: 0px;
+  }
+  .button-cv{
+    margin-left: 20px;
+  }
+  .project-num{
+    padding-left: 20px;
+  }
+  .navbar a{
+    padding: 20px 7px;
+    margin: -3px;
+  }
+  .image-cover{
+    width: 500px;
+    height: 300px;
+  }
+  .main-card-project{
+    gap: 6px;
+    margin-left: -77px;
+  }
+  .card-project-size{
+    padding: 20px;
+    width: 144px;
+    margin-left: -20px;
+    height: 100px;
+  }
+  .footer{
+    width: 429px;
+  }
+  .navbar {
+    overflow: hidden;  
+  }
+  .navbar a {
+    float: left;
+    display: block;
+    color: #f2f2f2;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    font-size: 17px;
+  }
+  .navbar a:hover {
+    background-color: #ddd;
+    color: black;
+  }
+  .navbar a.active {
+    background-color: #04AA6D;
+    color: white;
+  }
+  .navbar .icon {
+    display: none;
+  }
+   .navbar a:not(:first-child) {display: none;}
+   .navbar a:not(:first-child) {display: none;}
+   .navbar a.icon {
+     float: right;
+     display: block;
+   }
+
+   .navbar.responsive {position: relative;}
+   .navbar.responsive .icon {
+     position: absolute;
+     right: 0;
+     top: 0;
+   }
+    .navbar.responsive a {
+      float: none;
+      display: block;
+      text-align: left;
+    }
+  
+}
+
+   /* page two */
+
+/* myresume */
+.myresume img{
+    width: 500px;
+    padding-left: 350px;    
+}
+.button{
+    margin-top: 50px;
+    text-align: center;
+    margin-bottom: 50px;
+}
+.button a{
+    text-decoration: none;
+    text-align: center;
+    padding: 15px 30px;
+    color: #000;
+    background: #ffbd39;
+    border-radius: 10px;
+
+}
+
+     /* hire me */
+
+.main-hire{
+    border:  1px solid rgb(224, 221, 39);
+    margin-top: 100px;
+    margin-bottom: 100px;
+}
+.heading-hire h1{
+    color: #ffbd39;
+    text-align: center;
+    padding-top: 100px;
+    font-size: 40px;
+    padding-bottom: 10px;
+}
+.heading-hire h2{
+    color: #ffbd39;
+    text-align: center;
+}
+form{
+    padding-left: 140px;
+}
+.button-hire{
+    padding-top: 20px;
+}
+    /* My Work */
+
+.heading-work h1{
+    color: #ffbd39;
+    text-align: center;
+    padding-top: 100px;
+    font-size: 5vw;
+}
+
+
+
+
+
+
+/* @media only screen and (max-width: 1024px) {
+    .main-down{
+        gap: 72px;
+    }
+    .h2{
+        padding-top: 15px;
+    }
+    .hh2{
+        padding-top: 18px;
+    }
+    .paragh-resume{
+        width: 650px;
+        text-align: center;
+        padding-left: 189px;
+    }
+    .card-resume{
+        width: 430px;
+    }
+    .card-resume-two{
+        width: 430px;
+    }
+    .card-resume-three{
+        width: 430px;
+    }
+    .ss2{
+        padding-top: 18px;
+    }
+    .card-sevices{
+        /* width: 250px; */
+    /* }
+    .card-heading-servicse i{
+        margin-left: -23px;
+    }
+    .card-services-two{
+        width: 250px;
+    }
+    .card-heading-services-two i{
+        margin-left: -23px;
+    }
+    .card-services-three{
+        width: 250px;
+    }
+    .card-heading-services-three i{
+        margin-left: -23px;
+    }
+    .card-sevices-four{
+        width: 250px;
+    }
+    .card-heading-servicse-four i{
+        margin-left: -23px;
+    }
+    .card-services-five{
+        width: 250px;
+    }
+    .card-heading-services-five i{
+        margin-left: -23px;
+    }
+    .card-services-six{
+        width: 250px;
+    }
+    .card-heading-services-six i{
+        margin-left: -23px;
+    }
+    .kk2{
+        padding-top: 18px;
+    }
+    .Percentage {
+        width: 450px;
+    }
+    .pp2{
+        padding-top: 18px;
+    }
+    .image-cover{
+        height: 310px;
+    }
+    .cc2{
+        padding-top: 69px;
+    }
+    .boll-contact i{
+        font-size: 20px;
+    }
+    .boll-contact P{
+        width: 205px;
+        font-size: 12px;
+    }
+    .main-message{
+        margin-left: -90px;
+    }
+    .footer{
+        width: 1100px;
+    }
+    .paragh p{
+        width: 427px;
+    } */
+
+/* } */ 
+/* @media only screen and (max-width: 991px) {
+    .footer{
+        width: 1100px;
+    }
+    .paragh p{
+        width: 427px;
+    }
+    .card-sevices{
+        /* width: 228px; */
+    /* }
+    .card-heading-servicse i{
+        margin-left: -36px;
+    }
+    .card-services-two{
+        width: 228px;
+    } 
+    .card-heading-services-two i{
+        margin-left: -36px;
+    }
+    .card-services-three{
+        width: 228px;
+    }
+    .card-heading-services-three i{
+        margin-left: -36px;
+    }
+    .card-sevices-four{
+        width: 228px;
+    }
+    .card-heading-servicse-four i{
+        margin-left: -29px;
+    }
+    .card-services-five{
+        width: 228px;
+    }
+    .card-heading-services-five i {
+        margin-left: -34px;
+    }
+    .card-services-six{
+        width: 228px;
+    }
+    .card-heading-services-six i{
+        margin-left: -34px;
+    }
+
